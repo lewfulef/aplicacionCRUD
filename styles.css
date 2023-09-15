@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgba(243, 211, 255, 0.75), rgba(122, 86, 112, 0.75)),url(adopta.jpeg) center center fixed;
+}
+
+li, a, button{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    background-color: lightsalmon;
+    padding: 30px 10%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none; 
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.nav__links li {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: rgb(162, 92, 102);
+    text-decoration: none;
+}
+
+.checkbtn {
+    font-size: 18px;
+    color: #ffffff;
+    float: right;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+    
+}
+
+#check {
+    display: none;
+}
+
+button{
+    margin-left: 20px;
+    padding: 10px 60px;
+    background-color: #df2c68;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #9a0436;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+}
+
+header img {
+    width: 100px;
+    height: 75px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+#Update{
+    display: none;
+}
